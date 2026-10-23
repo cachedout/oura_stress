@@ -1,0 +1,11 @@
+# Copy to ~/.config/oura_stress/config.toml. All keys optional.
+poll_minutes = 15            # LaunchAgent interval (re-run install-agent after changing)
+window_start_hour = 9        # local time, inclusive
+window_end_hour = 18         # local time, exclusive
+weekdays_only = true
+threshold_seconds = 600      # alert when stress_high grows by this much between polls
+cooldown_minutes = 45        # minimum gap between alerts
+messages = [
+  "Stress is building. Take 2 minutes of slow breathing (4 in, 6 out).",
+  "Stress is building. Step away from the screen and walk for 5 minutes.",
+]
