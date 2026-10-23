@@ -6,7 +6,7 @@ stressed time has grown past a threshold since the previous poll.
 ## Setup
 
 1. Register an app at https://developer.ouraring.com with redirect URI
-   `http://localhost:8765/callback` and the `daily` scope.
+   `http://localhost:8765/callback` and the `daily` and `stress` scopes.
 2. `uv sync`
 3. `uv run oura-stress login` (prompts for client id and secret, opens the browser;
    credentials and tokens are stored in the macOS Keychain).

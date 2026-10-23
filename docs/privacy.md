@@ -8,8 +8,8 @@ tool does with data.
 
 ## Data accessed
 
-With the user's authorization through Oura's OAuth flow, the tool requests the `daily`
-scope and reads the user's Oura `daily_stress` summary (time spent in stressed and
+With the user's authorization through Oura's OAuth flow, the tool requests the `daily` and `stress`
+scopes and reads the user's Oura `daily_stress` summary (time spent in stressed and
 restored states for the current day).
 
 ## Data storage
